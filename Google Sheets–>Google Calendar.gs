@@ -1,6 +1,6 @@
 function createCalendarEvent() {
   var sheet = SpreadsheetApp.getActiveSheet();
-  var calendar = CalendarApp.getCalendarById('qgm2nvc0i50bub9gpgoacvtevo@group.calendar.google.com');
+  var calendar = CalendarApp.getCalendarById('[YOUR CALENDAR ID');
   
   //Delete existing events to prevent duplicates
   var today = new Date();
