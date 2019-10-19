@@ -1,3 +1,7 @@
+// I'm really proud of this code because it was the first code I wrote 100% on my own to solve a real world problem.
+// Additionally, up to this point I'd only studied Python. However, I knew the logical structure well enough to be able to
+// translate it to Google Scripts.
+
 function createCalendarEvent() {
   var sheet = SpreadsheetApp.getActiveSheet();
   var calendar = CalendarApp.getCalendarById('[YOUR CALENDAR ID');
